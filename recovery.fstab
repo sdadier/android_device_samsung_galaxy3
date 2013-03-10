@@ -1,0 +1,9 @@
+# mount fstype  device                  [device2]   [fstype2]   [fsoptions]         [fsoptions2]
+
+/boot	mtd	boot	NULL	NULL	NULL	NULL
+/cache	yaffs2	cache	NULL	NULL	NULL	NULL
+/data	yaffs2	userdata	NULL	NULL	NULL	NULL
+/system	yaffs2	system	NULL	NULL	NULL	NULL
+/sdcard	vfat	/dev/block/mmcblk0p1	/dev/block/mmcblk0	NULL	NULL	NULL
+/sd-ext ext4    /dev/block/mmcblk0p2	NULL	NULL	NULL	NULL
+
